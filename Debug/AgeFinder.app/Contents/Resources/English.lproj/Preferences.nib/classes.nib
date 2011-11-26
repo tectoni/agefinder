@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changeUnitsInInterface = id; }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {unitsSelectorButton = NSMatrix; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

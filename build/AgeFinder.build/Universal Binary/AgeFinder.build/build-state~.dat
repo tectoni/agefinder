@@ -1,0 +1,899 @@
+TAgeFinder
+v4
+r1
+cCheck dependencies
+cProcessInfoPlistFile "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Info.plist" Info.plist
+cCpResource English.lproj/Credits.rtf "build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/Credits.rtf"
+cStripNIB /users/pappel/coding/Objective-C/AgeFinder/English.lproj/MainMenu.nib
+cStripNIB /users/pappel/coding/Objective-C/AgeFinder/English.lproj/MyDocument.nib
+cCopyStringsFile "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+cCpResource DiagramView.h_1.xcclassmodel "build/Universal Binary/AgeFinder.app/Contents/Resources/DiagramView.h_1.xcclassmodel"
+cCpResource "Icon Templates/sol.icns" "build/Universal Binary/AgeFinder.app/Contents/Resources/sol.icns"
+cStripNIB /users/pappel/coding/Objective-C/AgeFinder/English.lproj/Preferences.nib
+cCpResource dsa_pub.pem "build/Universal Binary/AgeFinder.app/Contents/Resources/dsa_pub.pem"
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument.o" /users/pappel/coding/Objective-C/AgeFinder/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/main.o" /users/pappel/coding/Objective-C/AgeFinder/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Analysis.o" /users/pappel/coding/Objective-C/AgeFinder/Analysis.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/DiagramView.o" /users/pappel/coding/Objective-C/AgeFinder/DiagramView.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Composition2AgeTransformer.o" /users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/c2a.o" /users/pappel/coding/Objective-C/AgeFinder/c2a.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/SelData.o" /users/pappel/coding/Objective-C/AgeFinder/SelData.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ZoomScrollView.o" /users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/York.o" /users/pappel/coding/Objective-C/AgeFinder/York.c normal i386 c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/IsochroneView.o" /users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument_Pasteboard.o" /users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PreferenceController.o" /users/pappel/coding/Objective-C/AgeFinder/PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Headers.o" /users/pappel/coding/Objective-C/AgeFinder/Headers.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PPMFormatter.o" /users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/WTFormatter.o" /users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/AppController.o" /users/pappel/coding/Objective-C/AgeFinder/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ERRFormatter.o" /users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cLd "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/MacOS/AgeFinder" normal i386
+cPBXCp Sparkle.framework "build/Universal Binary/AgeFinder.app/Contents/Frameworks/Sparkle.framework"
+cTouch "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app"
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004E99603700000000000000EE
+t1318674487
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004C23B96100000000000004F1
+t1277409633
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004DB210720000000000004174
+t1303515250
+s16756
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
+c000000004DB210720000000000002DF5
+t1303515250
+s11765
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/string.h
+c000000004DB210720000000000001731
+t1303515250
+s5937
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/users/pappel/coding/Objective-C/AgeFinder/Analysis.h
+c000000004A1C89380000000000000422
+t1243384120
+s1058
+i<Cocoa/Cocoa.h>
+i"c2a.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/Analysis.m
+c000000004ECF4F0800000000000011B2
+t1322209032
+s4530
+i"Analysis.h"
+i"c2a.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/AppController.h
+c000000004A1C0156000000000000014C
+t1243349334
+s332
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/AppController.m
+c000000004A1D23E000000000000003AB
+t1243423712
+s939
+i"AppController.h"
+i"PreferenceController.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/COMP2AGE.h
+c000000003EFB1F78000000000000047A
+t1056644984
+s1146
+
+N/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.h
+c0000000048CFE80000000000000000FF
+t1221584896
+s255
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m
+c0000000048CFE8740000000000000236
+t1221585012
+s566
+i"Composition2AgeTransformer.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/DiagramView.h
+c000000004ECFBE68000000000000052B
+t1322237544
+s1323
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/DiagramView.h_1.xcclassmodel
+c00000000493DC2020000000000000088
+t1228784130
+s136
+
+N/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m
+c000000004ED0275600000000000049C1
+t1322264406
+s18881
+i"DiagramView.h"
+i"SelData.h"
+i"Analysis.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.h
+c000000004A51E63800000000000000E1
+t1246881336
+s225
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.m
+c000000004A51E5010000000000000416
+t1246881025
+s1046
+i"ERRFormatter.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/English.lproj/Credits.rtf
+c000000004CC944260000000000002E46
+t1288258598
+s11846
+
+N/users/pappel/coding/Objective-C/AgeFinder/English.lproj/InfoPlist.strings
+c00000000498369FD00000000000000DE
+t1233349117
+s222
+
+N/users/pappel/coding/Objective-C/AgeFinder/English.lproj/MainMenu.nib
+c000000004CC6E0990000000000000088
+t1288102041
+s136
+
+N/users/pappel/coding/Objective-C/AgeFinder/English.lproj/MyDocument.nib
+c000000004ED014540000000000000088
+t1322259540
+s136
+
+N/users/pappel/coding/Objective-C/AgeFinder/English.lproj/Preferences.nib
+c000000004A1CFE1000000000000000AA
+t1243414032
+s170
+
+N/users/pappel/coding/Objective-C/AgeFinder/Headers.h
+c000000004A01530F000000000000022E
+t1241600783
+s558
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/Headers.m
+c000000004A0154450000000000000659
+t1241601093
+s1625
+i"Headers.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/Icon Templates/sol.icns
+c0000000046E7A75F0000000000002124
+t1189586783
+s8484
+
+N/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.h
+c000000004ECFAFBB00000000000006E8
+t1322233787
+s1768
+i<Cocoa/Cocoa.h>
+i"York.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m
+c000000004ED027CB000000000000535F
+t1322264523
+s21343
+i"IsochroneView.h"
+i"SelData.h"
+i"York.h"
+i"Analysis.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/MyDocument.h
+c000000004ECFE0D90000000000000B76
+t1322246361
+s2934
+i<Cocoa/Cocoa.h>
+i"York.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m
+c000000004ED0120E00000000000093BC
+t1322258958
+s37820
+i"MyDocument.h"
+i"IsochroneView.h"
+i"DiagramView.h"
+i"Analysis.h"
+i"York.h"
+i"SelData.h"
+i"PreferenceController.h"
+i"Headers.h"
+i"WTFormatter.h"
+i"PPMFormatter.h"
+i"ERRFormatter.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.h
+c00000000485181B4000000000000022B
+t1213301172
+s555
+i"MyDocument.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m
+c00000000493D2A5200000000000009C2
+t1228745298
+s2498
+i"MyDocument_Pasteboard.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.h
+c000000004A09CD420000000000000062
+t1242156354
+s98
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m
+c000000004A09DF0E0000000000000384
+t1242160910
+s900
+i"PPMFormatter.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/PreferenceController.h
+c000000004A1CFBE500000000000001D2
+t1243413477
+s466
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/PreferenceController.m
+c000000004A51B2FB0000000000000797
+t1246868219
+s1943
+i"PreferenceController.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/SelData.h
+c000000004992CBF70000000000000458
+t1234357239
+s1112
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/SelData.m
+c00000000499369280000000000000E67
+t1234397480
+s3687
+i"SelData.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/Sparkle.framework
+c000000004CAA312A00000000000000CC
+t1286222122
+s204
+
+N/users/pappel/coding/Objective-C/AgeFinder/Sparkle.framework/Sparkle
+c0000000048CC84C200000000000712B4
+t1221362882
+s463540
+
+N/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.h
+c000000004A09CD420000000000000060
+t1242156354
+s96
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m
+c000000004BE00FF80000000000000382
+t1272975352
+s898
+i"WTFormatter.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/York.c
+c00000000494A6EB400000000000012EB
+t1229614772
+s4843
+i<stdlib.h>
+i<stdio.h>
+i<math.h>
+i"York.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/York.h
+c00000000493D2F2C0000000000000535
+t1228746540
+s1333
+
+N/users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.h
+c00000000479B61D400000000000000BE
+t1201365460
+s190
+i<Cocoa/Cocoa.h>
+
+N/users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.m
+c000000004980CF4100000000000007A0
+t1233178433
+s1952
+i"ZoomScrollView.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/AgeFinder.LinkFileList
+c000000004ED0280700000000000008CD
+t1322264583
+s2253
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Analysis.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/AppController.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Composition2AgeTransformer.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/DiagramView.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ERRFormatter.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Headers.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/IsochroneView.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument_Pasteboard.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PPMFormatter.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PreferenceController.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/SelData.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/WTFormatter.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/York.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ZoomScrollView.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/c2a.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/main.o
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Frameworks/Sparkle.framework
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Info.plist
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/MacOS/AgeFinder
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/PkgInfo
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/DiagramView.h_1.xcclassmodel
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/Credits.rtf
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/InfoPlist.strings
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/MainMenu.nib
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/MyDocument.nib
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/Preferences.nib
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/dsa_pub.pem
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/sol.icns
+t2
+s0
+
+N/users/pappel/coding/Objective-C/AgeFinder/c2a.c
+c000000004A32AB3100000000000012B7
+t1244834609
+s4791
+i"c2a.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/c2a.h
+c000000004A32AB310000000000000103
+t1244834609
+s259
+i<string.h>
+i<stdio.h>
+i<math.h>
+i"COMP2AGE.h"
+
+N/users/pappel/coding/Objective-C/AgeFinder/dsa_pub.pem
+c000000004CC15475000000000000049A
+t1287738485
+s1178
+
+N/users/pappel/coding/Objective-C/AgeFinder/main.m
+c00000000464850620000000000000102
+t1179144290
+s258
+i<Cocoa/Cocoa.h>
+
+NInfo.plist
+c000000004CC9437400000000000005C5
+t1288258420
+s1477
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/Analysis.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/AppController.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/DiagramView.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/Headers.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/MyDocument.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/PreferenceController.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/SelData.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/York.c
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.m
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/c2a.c
+r0
+
+CBuild AST from /users/pappel/coding/Objective-C/AgeFinder/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesa5f85c875f80b441^2c1071875f80b441^---0#1#0#--18"Check dependencies36"E182355F-18F7-40B9-ADCB-E97F3CF88269-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Analysis.o" /users/pappel/coding/Objective-C/AgeFinder/Analysis.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957392.193381
+e343957393.167748
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Analysis.o
+x/users/pappel/coding/Objective-C/AgeFinder/Analysis.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /users/pappel/coding/Objective-C/AgeFinder/Analysis.m629e31905f80b441^50fe2a915f80b441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Analysis.m0000000000000000^1240"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Analysis.o" Analysis.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/Analysis.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Analysis.o"36"9102AE47-B068-4E18-BD6A-1901E4FCDF0B-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/AppController.o" /users/pappel/coding/Objective-C/AgeFinder/AppController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957397.819701
+e343957398.711232
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/AppController.o
+x/users/pappel/coding/Objective-C/AgeFinder/AppController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /users/pappel/coding/Objective-C/AgeFinder/AppController.m20efd1955f80b441^d313b6965f80b441^---0#0#0#-19%DVTDocumentLocation2@74"file://localhost/users/pappel/coding/Objective-C/AgeFinder/AppController.m0000000000000000^1260"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/AppController.o" AppController.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/AppController.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/AppController.o"36"B7627CE0-F2AE-4D5E-B560-8D1C94A216DE-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Composition2AgeTransformer.o" /users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957393.169127
+e343957394.202037
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Composition2AgeTransformer.o
+x/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m: In function '-[Composition2AgeTransformer transformedValue:]':
+o/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:28: warning: unused variable 'ageOutputValue'
+o/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:27: warning: unused variable 'pb'
+o/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:27: warning: unused variable 'u'
+o/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:27: warning: unused variable 'th'
+o/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:36: warning: control reaches end of non-void function
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Compile /users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.mdd612b915f80b441^22c633925f80b441^-697"/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m: In function '-[Composition2AgeTransformer transformedValue:]':/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:28: warning: unused variable 'ageOutputValue'/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:27: warning: unused variable 'pb'/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:27: warning: unused variable 'u'/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:27: warning: unused variable 'th'/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m:36: warning: control reaches end of non-void function5(21%IDEActivityLogMessage2@32"Unused variable 'ageOutputValue'-343957394#136#118#-1#-23%DVTTextDocumentLocation3@87"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m0000000000000000^27#18446744073709551615#27#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@20"Unused variable 'pb'-343957394#254#106#-1#-3@87"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m0000000000000000^26#18446744073709551615#26#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@19"Unused variable 'u'-343957394#360#105#-1#-3@87"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m0000000000000000^26#18446744073709551615#26#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@20"Unused variable 'th'-343957394#465#106#-1#-3@87"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m0000000000000000^26#18446744073709551615#26#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@40"Control reaches end of non-void function-343957394#571#126#-1#-3@87"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m0000000000000000^35#18446744073709551615#35#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--0#0#0#-19%DVTDocumentLocation4@87"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m0000000000000000^1312"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Composition2AgeTransformer.o" Composition2AgeTransformer.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/Composition2AgeTransformer.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Composition2AgeTransformer.o"36"C4FBAA6B-0123-4477-B142-D9A0ABC3FAB9-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/DiagramView.o" /users/pappel/coding/Objective-C/AgeFinder/DiagramView.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957392.413815
+e343957393.456564
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/DiagramView.o
+x/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m: In function '-[DiagramView stopObservingAnalysis:]':
+o/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m:236: warning: unused variable 'oldGraphic'
+o/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m: At top level:
+o/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m:685: warning: incomplete implementation of class 'DiagramView'
+o/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m:685: warning: method definition for '-zoomLevel:' not found
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /users/pappel/coding/Objective-C/AgeFinder/DiagramView.m68096a905f80b441^a4e174915f80b441^-520"/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m: In function '-[DiagramView stopObservingAnalysis:]':/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m:236: warning: unused variable 'oldGraphic'/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m: At top level:/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m:685: warning: incomplete implementation of class 'DiagramView'/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m:685: warning: method definition for '-zoomLevel:' not found4(21%IDEActivityLogMessage2@28"Unused variable 'oldGraphic'-343957393#111#100#-1#-23%DVTTextDocumentLocation3@72"file://localhost/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m0000000000000000^235#18446744073709551615#235#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--32%IDEActivityLogContextInfoMessage4@13"At top level:-343957393#211#72#-0#-3@72"file://localhost/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#14"GCC 4.0 Notice--2@48"Incomplete implementation of class 'DiagramView'-343957393#283#120#-1#-3@72"file://localhost/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m0000000000000000^684#18446744073709551615#684#18446744073709551615#18446744073709551615#0#38"Incomplete implementation of class '*'--2@45"Method definition for '-zoomLevel:' not found-343957393#403#117#-1#-3@72"file://localhost/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m0000000000000000^684#18446744073709551615#684#18446744073709551615#18446744073709551615#0#35"Method definition for '*' not found--0#0#0#-19%DVTDocumentLocation5@72"file://localhost/users/pappel/coding/Objective-C/AgeFinder/DiagramView.m0000000000000000^1252"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/DiagramView.o" DiagramView.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/DiagramView.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/DiagramView.o"36"638DF01E-E4DB-4E58-A2DA-EC21261E0B54-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ERRFormatter.o" /users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957398.053966
+e343957398.891361
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ERRFormatter.o
+x/users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.m1de80d965f80b441^b134e4965f80b441^---0#0#0#-19%DVTDocumentLocation2@73"file://localhost/users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.m0000000000000000^1256"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ERRFormatter.o" ERRFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/ERRFormatter.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ERRFormatter.o"36"2E1CDFE6-ACB3-46C1-89D2-4EE42F8F1407-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Headers.o" /users/pappel/coding/Objective-C/AgeFinder/Headers.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957396.178268
+e343957397.033738
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Headers.o
+x/users/pappel/coding/Objective-C/AgeFinder/Headers.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /users/pappel/coding/Objective-C/AgeFinder/Headers.mdcb82d945f80b441^74b208955f80b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Headers.m0000000000000000^1236"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Headers.o" Headers.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/Headers.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/Headers.o"36"E8A47931-1C25-4808-ACEE-3B774C82C720-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/IsochroneView.o" /users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957394.818238
+e343957395.894272
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/IsochroneView.o
+x/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m: In function '-[IsochroneView setPPMMode:]':
+o/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m:97: warning: control reaches end of non-void function
+o/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m: In function '-[IsochroneView stopObservingAnalysis:]':
+o/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m:269: warning: unused variable 'oldGraphic'
+o/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m: At top level:
+o/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m:841: warning: incomplete implementation of class 'IsochroneView'
+o/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m:841: warning: method definition for '-zoomLevel:' not found
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection66"Compile /users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m228ed1925f80b441^e7fce4935f80b441^-751"/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m: In function '-[IsochroneView setPPMMode:]':/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m:97: warning: control reaches end of non-void function/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m: In function '-[IsochroneView stopObservingAnalysis:]':/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m:269: warning: unused variable 'oldGraphic'/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m: At top level:/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m:841: warning: incomplete implementation of class 'IsochroneView'/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m:841: warning: method definition for '-zoomLevel:' not found5(21%IDEActivityLogMessage2@40"Control reaches end of non-void function-343957395#104#113#-1#-23%DVTTextDocumentLocation3@74"file://localhost/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m0000000000000000^96#18446744073709551615#96#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@28"Unused variable 'oldGraphic'-343957395#332#102#-1#-3@74"file://localhost/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m0000000000000000^268#18446744073709551615#268#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--32%IDEActivityLogContextInfoMessage4@13"At top level:-343957395#434#74#-0#-3@74"file://localhost/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#14"GCC 4.0 Notice--2@50"Incomplete implementation of class 'IsochroneView'-343957395#508#124#-1#-3@74"file://localhost/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m0000000000000000^840#18446744073709551615#840#18446744073709551615#18446744073709551615#0#38"Incomplete implementation of class '*'--2@45"Method definition for '-zoomLevel:' not found-343957395#632#119#-1#-3@74"file://localhost/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m0000000000000000^840#18446744073709551615#840#18446744073709551615#18446744073709551615#0#35"Method definition for '*' not found--0#0#0#-19%DVTDocumentLocation5@74"file://localhost/users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m0000000000000000^1260"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/IsochroneView.o" IsochroneView.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/IsochroneView.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/IsochroneView.o"36"A2B17934-0D3F-4B7B-B55E-4BDF56C4A017-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument.o" /users/pappel/coding/Objective-C/AgeFinder/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957391.281522
+e343957392.412521
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument.o
+x/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument windowWillClose:]':
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:57: warning: 'fileName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSDocument.h:533)
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument updateSel]':
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:801: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument tableView:objectValueForTableColumn:row:]':
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:821: warning: control reaches end of non-void function
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument writeRecordsToTextFile:]':
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:1036: warning: 'writeToFile:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument printShowingPrintPanel:]':
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:1164: warning: 'setShowPanels:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:147)
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument dealloc]':
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:1183: warning: 'fileName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSDocument.h:533)
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"Compile /users/pappel/coding/Objective-C/AgeFinder/MyDocument.m352a488f5f80b441^aa0e6d905f80b441^-1846"/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument windowWillClose:]':/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:57: warning: 'fileName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSDocument.h:533)/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument updateSel]':/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:801: warning: 'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument tableView:objectValueForTableColumn:row:]':/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:821: warning: control reaches end of non-void function/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument writeRecordsToTextFile:]':/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:1036: warning: 'writeToFile:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument printShowingPrintPanel:]':/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:1164: warning: 'setShowPanels:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:147)/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m: In function '-[MyDocument dealloc]':/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m:1183: warning: 'fileName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSDocument.h:533)6(21%IDEActivityLogMessage2@137"'fileName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSDocument.h:533)-343957392#103#207#-1#-23%DVTTextDocumentLocation3@71"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m0000000000000000^56#18446744073709551615#56#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--2@161"'selectRow:byExtendingSelection:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSTableView.h:655)-343957392#406#232#-1#-3@71"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m0000000000000000^800#18446744073709551615#800#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--2@40"Control reaches end of non-void function-343957392#765#111#-1#-3@71"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m0000000000000000^820#18446744073709551615#820#18446744073709551615#18446744073709551615#0#40"Control reaches end of non-void function--2@154"'writeToFile:atomically:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h:374)-343957392#986#226#-1#-3@71"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m0000000000000000^1035#18446744073709551615#1035#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--2@149"'setShowPanels:' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSPrintOperation.h:147)-343957392#1322#221#-1#-3@71"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m0000000000000000^1163#18446744073709551615#1163#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--2@137"'fileName' is deprecated (declared at /Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/AppKit.framework/Headers/NSDocument.h:533)-343957392#1637#209#-1#-3@71"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m0000000000000000^1182#18446744073709551615#1182#18446744073709551615#18446744073709551615#0#33"'*' is deprecated (declared at *)--0#0#0#-19%DVTDocumentLocation4@71"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument.m0000000000000000^1248"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument.o" MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/MyDocument.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument.o"36"696409C0-47B6-4AC1-AADC-A43CA188568E-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument_Pasteboard.o" /users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957395.155994
+e343957396.176881
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument_Pasteboard.o
+x/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m:97: warning: incomplete implementation of category 'Pasteboard'
+o/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m:97: warning: method definition for '-readablePasteboardTypes' not found
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection74"Compile /users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m4b0628935f80b441^3e5d2d945f80b441^-270"/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m:97: warning: incomplete implementation of category 'Pasteboard'/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m:97: warning: method definition for '-readablePasteboardTypes' not found2(21%IDEActivityLogMessage2@50"Incomplete implementation of category 'Pasteboard'-343957396#0#131#-1#-23%DVTTextDocumentLocation3@82"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m0000000000000000^96#18446744073709551615#96#18446744073709551615#18446744073709551615#0#15"GCC 4.0 Warning--2@58"Method definition for '-readablePasteboardTypes' not found-343957396#131#139#-1#-3@82"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m0000000000000000^96#18446744073709551615#96#18446744073709551615#18446744073709551615#0#35"Method definition for '*' not found--0#0#0#-19%DVTDocumentLocation4@82"file://localhost/users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m0000000000000000^1292"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument_Pasteboard.o" MyDocument_Pasteboard.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/MyDocument_Pasteboard.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/MyDocument_Pasteboard.o"36"C5CE1626-A044-4E35-B752-45BB8F70E430-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PPMFormatter.o" /users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957396.827312
+e343957397.818467
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PPMFormatter.o
+x/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m: In function '-[PPMFormatter getObjectValue:forString:errorDescription:]':
+o/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m:27: warning: input conversion stopped due to an input byte that does not belong to the input codeset UTF-8
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection65"Compile /users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m87e1d3945f80b441^2d93d1955f80b441^-298"/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m: In function '-[PPMFormatter getObjectValue:forString:errorDescription:]':/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m:27: warning: input conversion stopped due to an input byte that does not belong to the input codeset UTF-81(21%IDEActivityLogMessage2@93"Input conversion stopped due to an input byte that does not belong to the input codeset UTF-8-343957397#133#165#-1#-23%DVTTextDocumentLocation3@73"file://localhost/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m0000000000000000^26#18446744073709551615#26#18446744073709551615#18446744073709551615#0#93"Input conversion stopped due to an input byte that does not belong to the input codeset UTF-8--0#0#0#-19%DVTDocumentLocation4@73"file://localhost/users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m0000000000000000^1256"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PPMFormatter.o" PPMFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/PPMFormatter.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PPMFormatter.o"36"845E353A-B5EF-4B9F-81C0-1D0E32A03E13-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PreferenceController.o" /users/pappel/coding/Objective-C/AgeFinder/PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957395.895623
+e343957396.825950
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PreferenceController.o
+x/users/pappel/coding/Objective-C/AgeFinder/PreferenceController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection73"Compile /users/pappel/coding/Objective-C/AgeFinder/PreferenceController.m0f60e5935f80b441^f985d3945f80b441^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/users/pappel/coding/Objective-C/AgeFinder/PreferenceController.m0000000000000000^1288"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PreferenceController.o" PreferenceController.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/PreferenceController.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/PreferenceController.o"36"8B860D44-E830-4204-8010-39E63DA69219-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/SelData.o" /users/pappel/coding/Objective-C/AgeFinder/SelData.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957393.793437
+e343957394.739716
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/SelData.o
+x/users/pappel/coding/Objective-C/AgeFinder/SelData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection60"Compile /users/pappel/coding/Objective-C/AgeFinder/SelData.mb937cb915f80b441^af5ebd925f80b441^---0#0#0#-19%DVTDocumentLocation2@68"file://localhost/users/pappel/coding/Objective-C/AgeFinder/SelData.m0000000000000000^1236"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/SelData.o" SelData.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/SelData.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/SelData.o"36"8ADCE7A1-BEC7-4968-AE91-BC2B00B206BC-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/WTFormatter.o" /users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957397.034982
+e343957398.052644
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/WTFormatter.o
+x/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m: In function '-[WTFormatter getObjectValue:forString:errorDescription:]':
+o/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m:27: warning: input conversion stopped due to an input byte that does not belong to the input codeset UTF-8
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection64"Compile /users/pappel/coding/Objective-C/AgeFinder/WTFormatter.mbf0d09955f80b441^87860d965f80b441^-295"/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m: In function '-[WTFormatter getObjectValue:forString:errorDescription:]':/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m:27: warning: input conversion stopped due to an input byte that does not belong to the input codeset UTF-81(21%IDEActivityLogMessage2@93"Input conversion stopped due to an input byte that does not belong to the input codeset UTF-8-343957398#131#164#-1#-23%DVTTextDocumentLocation3@72"file://localhost/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m0000000000000000^26#18446744073709551615#26#18446744073709551615#18446744073709551615#0#93"Input conversion stopped due to an input byte that does not belong to the input codeset UTF-8--0#0#0#-19%DVTDocumentLocation4@72"file://localhost/users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m0000000000000000^1252"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/WTFormatter.o" WTFormatter.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/WTFormatter.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/WTFormatter.o"36"593FE62A-D208-4938-8E2D-81CE189DF1F6-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/York.o" /users/pappel/coding/Objective-C/AgeFinder/York.c normal i386 c com.apple.compilers.gcc.4_0
+s343957394.740985
+e343957394.816781
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/York.o
+x/users/pappel/coding/Objective-C/AgeFinder/York.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/York.c: In function 'CalcNewSlope':
+o/users/pappel/coding/Objective-C/AgeFinder/York.c:88: warning: unused variable 'xin'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /users/pappel/coding/Objective-C/AgeFinder/York.ca8c8bd925f80b441^3719d1925f80b441^-164"/users/pappel/coding/Objective-C/AgeFinder/York.c: In function 'CalcNewSlope':/users/pappel/coding/Objective-C/AgeFinder/York.c:88: warning: unused variable 'xin'1(21%IDEActivityLogMessage2@21"Unused variable 'xin'-343957394#79#85#-1#-23%DVTTextDocumentLocation3@65"file://localhost/users/pappel/coding/Objective-C/AgeFinder/York.c0000000000000000^87#18446744073709551615#87#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--0#0#0#-19%DVTDocumentLocation4@65"file://localhost/users/pappel/coding/Objective-C/AgeFinder/York.c0000000000000000^1204"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/York.o" York.c normal i386 c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/York.c -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/York.o"36"1A140CA4-CD61-4F03-8052-1FCDDA276771-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ZoomScrollView.o" /users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957394.203275
+e343957395.154616
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ZoomScrollView.o
+x/users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.m602034925f80b441^09a927935f80b441^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.m0000000000000000^1264"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ZoomScrollView.o" ZoomScrollView.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/ZoomScrollView.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/ZoomScrollView.o"36"4DB9EE0F-4358-43AE-8FFD-042C6DD649DF-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/c2a.o" /users/pappel/coding/Objective-C/AgeFinder/c2a.c normal i386 c com.apple.compilers.gcc.4_0
+s343957393.457795
+e343957393.791892
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/c2a.o
+x/users/pappel/coding/Objective-C/AgeFinder/c2a.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+o/users/pappel/coding/Objective-C/AgeFinder/c2a.c: In function 'CalcThStar':
+o/users/pappel/coding/Objective-C/AgeFinder/c2a.c:151: warning: unused variable 'Mth'
+o/users/pappel/coding/Objective-C/AgeFinder/c2a.c:151: warning: unused variable 'Mu'
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Compile /users/pappel/coding/Objective-C/AgeFinder/c2a.c674875915f80b441^d4b9ca915f80b441^-245"/users/pappel/coding/Objective-C/AgeFinder/c2a.c: In function 'CalcThStar':/users/pappel/coding/Objective-C/AgeFinder/c2a.c:151: warning: unused variable 'Mth'/users/pappel/coding/Objective-C/AgeFinder/c2a.c:151: warning: unused variable 'Mu'2(21%IDEActivityLogMessage2@21"Unused variable 'Mth'-343957393#76#85#-1#-23%DVTTextDocumentLocation3@64"file://localhost/users/pappel/coding/Objective-C/AgeFinder/c2a.c0000000000000000^150#18446744073709551615#150#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--2@20"Unused variable 'Mu'-343957393#161#84#-1#-3@64"file://localhost/users/pappel/coding/Objective-C/AgeFinder/c2a.c0000000000000000^150#18446744073709551615#150#18446744073709551615#18446744073709551615#0#19"Unused variable '*'--0#0#0#-19%DVTDocumentLocation4@64"file://localhost/users/pappel/coding/Objective-C/AgeFinder/c2a.c0000000000000000^1200"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/c2a.o" c2a.c normal i386 c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/c2a.c -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/c2a.o"36"48B43D16-6A54-4171-9ABD-0A8D1EB85106-
+
+CCompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/main.o" /users/pappel/coding/Objective-C/AgeFinder/main.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s343957391.282334
+e343957392.192122
+r1
+xCompileC
+xbuild/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/main.o
+x/users/pappel/coding/Objective-C/AgeFinder/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Compile /users/pappel/coding/Objective-C/AgeFinder/main.mc45a488f5f80b441^193b31905f80b441^---0#0#0#-19%DVTDocumentLocation2@65"file://localhost/users/pappel/coding/Objective-C/AgeFinder/main.m0000000000000000^1224"CompileC "build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/main.o" main.m normal i386 objective-c com.apple.compilers.gcc.4_0    cd /users/pappel/coding/Objective-C/AgeFinder    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.5 -gdwarf-2 "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/AgeFinder.hmap" "-I/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/include" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources/i386" "-I/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/DerivedSources" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -c /users/pappel/coding/Objective-C/AgeFinder/main.m -o "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/main.o"36"3D916C03-3461-4AB7-A685-816E70FF8F5E-
+
+CCopyStringsFile "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings
+s343957391.136071
+e343957391.139948
+r1
+xCopyStringsFile
+x/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Copy English.lproj/InfoPlist.stringsf7e7228f5f80b441^59dc238f5f80b441^---0#0#0#-19%DVTDocumentLocation2@90"file://localhost/users/pappel/coding/Objective-C/AgeFinder/English.lproj/InfoPlist.strings0000000000000000^429"CopyStringsFile "build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/InfoPlist.strings" English.lproj/InfoPlist.strings    cd /users/pappel/coding/Objective-C/AgeFinder    builtin-copyStrings --validate --inputencoding utf-16 --outputencoding UTF-16 --outdir "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj" -- English.lproj/InfoPlist.strings36"AF88E1EE-0965-4691-96A6-849E8878E946-
+
+CCpResource "Icon Templates/sol.icns" "build/Universal Binary/AgeFinder.app/Contents/Resources/sol.icns"
+s343957391.203304
+e343957391.225457
+r1
+xCpResource
+xIcon Templates/sol.icns
+xbuild/Universal Binary/AgeFinder.app/Contents/Resources/sol.icns
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"Copy build/Universal Binary/AgeFinder.app/Contents/Resources/sol.icnseb1b348f5f80b441^56b8398f5f80b441^---0#0#0#-19%DVTDocumentLocation2@125"file://localhost/users/pappel/coding/Objective-C/AgeFinder/build/Universal%20Binary/AgeFinder.app/Contents/Resources/sol.icns00f8602edcffdf42^436"CpResource "Icon Templates/sol.icns" "build/Universal Binary/AgeFinder.app/Contents/Resources/sol.icns"    cd /users/pappel/coding/Objective-C/AgeFinder    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/users/pappel/coding/Objective-C/AgeFinder/Icon Templates/sol.icns" "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources"36"9F897527-046D-46C2-B7DF-CF40048A5E8C-
+
+CCpResource DiagramView.h_1.xcclassmodel "build/Universal Binary/AgeFinder.app/Contents/Resources/DiagramView.h_1.xcclassmodel"
+s343957391.141138
+e343957391.202119
+r1
+xCpResource
+xDiagramView.h_1.xcclassmodel
+xbuild/Universal Binary/AgeFinder.app/Contents/Resources/DiagramView.h_1.xcclassmodel
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy build/Universal Binary/AgeFinder.app/Contents/Resources/DiagramView.h_1.xcclassmodel1631248f5f80b441^a3cb338f5f80b441^---0#0#0#-19%DVTDocumentLocation2@145"file://localhost/users/pappel/coding/Objective-C/AgeFinder/build/Universal%20Binary/AgeFinder.app/Contents/Resources/DiagramView.h_1.xcclassmodel00f8602edcffdf42^462"CpResource DiagramView.h_1.xcclassmodel "build/Universal Binary/AgeFinder.app/Contents/Resources/DiagramView.h_1.xcclassmodel"    cd /users/pappel/coding/Objective-C/AgeFinder    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /users/pappel/coding/Objective-C/AgeFinder/DiagramView.h_1.xcclassmodel "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources"36"13D91CFA-EB26-4F73-8CEB-C89E8727365E-
+
+CCpResource English.lproj/Credits.rtf "build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/Credits.rtf"
+s343957383.461703
+e343957383.465699
+r1
+xCpResource
+xEnglish.lproj/Credits.rtf
+xbuild/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/Credits.rtf
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection86"Copy build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/Credits.rtfa05176875f80b441^853f77875f80b441^---0#0#0#-19%DVTDocumentLocation2@142"file://localhost/users/pappel/coding/Objective-C/AgeFinder/build/Universal%20Binary/AgeFinder.app/Contents/Resources/English.lproj/Credits.rtf00f8602edcffdf42^467"CpResource English.lproj/Credits.rtf "build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/Credits.rtf"    cd /users/pappel/coding/Objective-C/AgeFinder    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /users/pappel/coding/Objective-C/AgeFinder/English.lproj/Credits.rtf "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj"36"AEA77C6D-130F-410E-927D-AE05B968E368-
+
+CCpResource dsa_pub.pem "build/Universal Binary/AgeFinder.app/Contents/Resources/dsa_pub.pem"
+s343957391.253262
+e343957391.274648
+r1
+xCpResource
+xdsa_pub.pem
+xbuild/Universal Binary/AgeFinder.app/Contents/Resources/dsa_pub.pem
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection72"Copy build/Universal Binary/AgeFinder.app/Contents/Resources/dsa_pub.pem08e6408f5f80b441^7250468f5f80b441^---0#0#0#-19%DVTDocumentLocation2@128"file://localhost/users/pappel/coding/Objective-C/AgeFinder/build/Universal%20Binary/AgeFinder.app/Contents/Resources/dsa_pub.pem00f8602edcffdf42^411"CpResource dsa_pub.pem "build/Universal Binary/AgeFinder.app/Contents/Resources/dsa_pub.pem"    cd /users/pappel/coding/Objective-C/AgeFinder    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /users/pappel/coding/Objective-C/AgeFinder/dsa_pub.pem "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources"36"4CD7F13B-0E87-44A4-AF8F-8D5E28990B30-
+
+CLd "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/MacOS/AgeFinder" normal i386
+s343957398.893638
+e343957398.970154
+r1
+xLd
+x/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/MacOS/AgeFinder
+xnormal
+xi386
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Link /users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/MacOS/AgeFinder3cdee4965f80b441^c85df8965f80b441^---0#0#0#--763"Ld "build/Universal Binary/AgeFinder.app/Contents/MacOS/AgeFinder" normal i386    cd /users/pappel/coding/Objective-C/AgeFinder    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" "-F/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary" -F/users/pappel/coding/Objective-C/AgeFinder -filelist "/users/pappel/coding/Objective-C/AgeFinder/build/AgeFinder.build/Universal Binary/AgeFinder.build/Objects-normal/i386/AgeFinder.LinkFileList" -mmacosx-version-min=10.5 -framework Cocoa -framework Sparkle -o "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/MacOS/AgeFinder"36"5BC9D090-4B03-4A3C-A057-C112AD8B991B-
+
+CPBXCp Sparkle.framework "build/Universal Binary/AgeFinder.app/Contents/Frameworks/Sparkle.framework"
+s343957398.973492
+e343957399.415250
+r1
+xPBXCp
+xSparkle.framework
+xbuild/Universal Binary/AgeFinder.app/Contents/Frameworks/Sparkle.framework
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection79"Copy build/Universal Binary/AgeFinder.app/Contents/Frameworks/Sparkle.frameworkaa44f9965f80b441^cf4e6a975f80b441^---0#0#0#-19%DVTDocumentLocation2@135"file://localhost/users/pappel/coding/Objective-C/AgeFinder/build/Universal%20Binary/AgeFinder.app/Contents/Frameworks/Sparkle.framework00f8602edcffdf42^426"PBXCp Sparkle.framework "build/Universal Binary/AgeFinder.app/Contents/Frameworks/Sparkle.framework"    cd /users/pappel/coding/Objective-C/AgeFinder    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /users/pappel/coding/Objective-C/AgeFinder/Sparkle.framework "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Frameworks"36"D6673619-A7C0-4B62-8E06-1DB22AB6B9AF-
+
+CProcessInfoPlistFile "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Info.plist" Info.plist
+s343957383.452778
+e343957383.458266
+r1
+xProcessInfoPlistFile
+x/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Info.plist
+xInfo.plist
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plistda0074875f80b441^7e5275875f80b441^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/users/pappel/coding/Objective-C/AgeFinder/Info.plist0000000000000000^435"ProcessInfoPlistFile "build/Universal Binary/AgeFinder.app/Contents/Info.plist" Info.plist    cd /users/pappel/coding/Objective-C/AgeFinder    builtin-infoPlistUtility Info.plist -genpkginfo "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/PkgInfo" -expandbuildsettings -platform macosx -o "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Info.plist"36"B98DF1B5-798F-4CE5-8AAE-72957ADAB040-
+
+CStripNIB /users/pappel/coding/Objective-C/AgeFinder/English.lproj/MainMenu.nib
+s343957383.462204
+e343957391.134652
+r1
+xStripNIB
+x/users/pappel/coding/Objective-C/AgeFinder/English.lproj/MainMenu.nib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection80"Processing /users/pappel/coding/Objective-C/AgeFinder/English.lproj/MainMenu.nib066576875f80b441^317a228f5f80b441^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/users/pappel/coding/Objective-C/AgeFinder/English.lproj/MainMenu.nib/0000000000000000^416"StripNIB English.lproj/MainMenu.nib    cd /users/pappel/coding/Objective-C/AgeFinder    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --strip "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/MainMenu.nib" --output-format human-readable-text /users/pappel/coding/Objective-C/AgeFinder/English.lproj/MainMenu.nib36"F576AE69-DF4A-4D24-92E1-701941162E31-
+
+CStripNIB /users/pappel/coding/Objective-C/AgeFinder/English.lproj/MyDocument.nib
+s343957383.466854
+e343957391.243416
+r1
+xStripNIB
+x/users/pappel/coding/Objective-C/AgeFinder/English.lproj/MyDocument.nib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection82"Processing /users/pappel/coding/Objective-C/AgeFinder/English.lproj/MyDocument.nib369377875f80b441^795a3e8f5f80b441^---0#0#0#-19%DVTDocumentLocation2@88"file://localhost/users/pappel/coding/Objective-C/AgeFinder/English.lproj/MyDocument.nib/0000000000000000^422"StripNIB English.lproj/MyDocument.nib    cd /users/pappel/coding/Objective-C/AgeFinder    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --strip "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/MyDocument.nib" --output-format human-readable-text /users/pappel/coding/Objective-C/AgeFinder/English.lproj/MyDocument.nib36"F6F954AE-37BB-4117-B044-57912676BD61-
+
+CStripNIB /users/pappel/coding/Objective-C/AgeFinder/English.lproj/Preferences.nib
+s343957391.226663
+e343957391.243842
+r1
+xStripNIB
+x/users/pappel/coding/Objective-C/AgeFinder/English.lproj/Preferences.nib
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection83"Processing /users/pappel/coding/Objective-C/AgeFinder/English.lproj/Preferences.nib2b173a8f5f80b441^166d3e8f5f80b441^---0#0#0#-19%DVTDocumentLocation2@89"file://localhost/users/pappel/coding/Objective-C/AgeFinder/English.lproj/Preferences.nib/0000000000000000^425"StripNIB English.lproj/Preferences.nib    cd /users/pappel/coding/Objective-C/AgeFinder    setenv XCODE_DEVELOPER_USR_PATH /Developer/usr/bin/..    /Developer/usr/bin/ibtool --strip "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app/Contents/Resources/English.lproj/Preferences.nib" --output-format human-readable-text /users/pappel/coding/Objective-C/AgeFinder/English.lproj/Preferences.nib36"546DD167-3CB5-4679-88A5-C2E38EFF2569-
+
+CTouch "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app"
+s343957399.418212
+e343957399.425716
+r1
+xTouch
+x/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app
+lSLF04#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection85"Touch /users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app4b1e6b975f80b441^83fc6c975f80b441^---0#0#0#--199"Touch "build/Universal Binary/AgeFinder.app"    cd /users/pappel/coding/Objective-C/AgeFinder    /usr/bin/touch -c "/users/pappel/coding/Objective-C/AgeFinder/build/Universal Binary/AgeFinder.app"36"AA8D385C-CE8B-43AB-A2D5-65574C68928A-
+

@@ -1,0 +1,171 @@
+{\rtf1\mac\ansicpg10000\cocoartf824\cocoasubrtf480
+{\fonttbl\f0\fswiss\fcharset77 Helvetica-Bold;\f1\fswiss\fcharset77 Helvetica;\f2\fswiss\fcharset77 Helvetica-Oblique;
+}
+{\colortbl;\red255\green255\blue255;}
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
+
+\f0\b\fs24 \cf0 AgeFinder\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b0 \cf0 \
+This program needs Mac OS X 10.4 ("Tiger") or later.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
+
+\f0\b \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 Author:
+\f1\b0 \
+Peter Appel\
+Christian-Albrechts-Universit\'8at zu Kiel (Germany) \
+Institut f\'9fr Geowissenschaften, Mineralogie\
+{\field{\*\fldinst{HYPERLINK "mailto://pa@min.uni-kiel.de"}}{\fldrslt mailto://pa@min.uni-kiel.de}}\
+\
+See my website at  {\field{\*\fldinst{HYPERLINK "http://www.ifg.uni-kiel.de"}}{\fldrslt 
+\f2\i http://www.ifg.uni-kiel.de}}
+\f2\i  
+\f1\i0 or my software archive at \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://rhodesit.min.uni-kiel.de/~pa/pub/"}}{\fldrslt 
+\f2\i \cf0 http://rhodesit.min.uni-kiel.de/~pa/pub
+\f1\i0 /}} to download the latest version.\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b \cf0 Program Abstract
+\f1\b0 \
+This program is build for geologists who want to perform age dating with monazite. Monazite is a phosphate mineral that contains light rare earth elements (La, Ce, Sm...) as well as thorium and uranium which decay with time to form lead. \
+It is possible to analyse these minerals with high spatial resolution with an electron microprobe and to obtain geologically important information about the age from these data. \
+\
+The program reads in data of the UO2, ThO2 and PbO (or elemental concentrations in ppm) composition and the associated relative errors for these elements. From these data it calculates apparent ages for each point and the so-called ThO2*-value as well as their associated errors.\
+The data will be displayed in the Histogram diagram window and in the Isochron (or CHIME) diagram window. Than, arbitrary data points can be selected in the data table and each selection can be evaluated. \
+\
+You also can enter the data in ppm units, using elemental concentration. Choose the appropriate data units in the Preference Panel. Notice that the program will not change data when you switch the data units but only the axis ticks and labeling will be changed. Therefore, it is a good idea to set the data unit before entering data or loading a data file. Also notice, that switiching the data format with the Preference Panel will affect the global Program behaviour and all axis on the currently opened windows will be changed.\
+\
+\
+
+\f0\b Potential Problems during Calculations\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b0 \cf0 In some cases it may occur that you receive wired results from the calculations, mostly related to the CHIME calculations. In case that one or more data in the selection cells do not show numerical values but "NaN" check this:\
+- Is it possible that your input data define an isochron with a negative slope? In that case the York-Fit regression will not work and no age can be calculated.\
+-Do you use sufficient points for the calculation of the isochron? It will not work for only one point.\
+-Does your data displays a minimum variation in ThO2*? If all data have the same ThO2*-value, the slope of the isochron cannot be defined. The higher the variation, the better the regression will be.\
+-Be careful when saving such data to a file. "NaN" may not represent valid data and files containing such values possibly cannot be loaded.\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b \cf0 Legal Notice
+\f1\b0 \
+1) This software is freeware. \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 2) By using the Software, you acknowledge that you are bound by and subject to the provisions of this agreement without modifications. If you do not accept these terms of use in their entirety, you may not access or use the Software.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 -The Software is distributed "AS IS". No warranty or any kind is expressed or implied. You use at your own risk. The author will not be liable for data loss, damages, loss of profits or any other kind of loss while using or misusing this software.\
+-You may not use the Software in support of any commercial entity or activity without the express written agreement of the author of the software.\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b \cf0 Version History:
+\f1\b0\fs20 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b \cf0 AgeFinder 1.1\
+
+\f1\b0 6-July-2009\
+-Issue with table headers and axis length was fixed\
+-Changed the color of the isochron to blue and reduced border of selected points in the isochron view.\
+\
+
+\f0\b AgeFinder 1.0\
+
+\f1\b0 26-June-2009\
+Renamed the Software\
+-Introduced a Preference Panel to swiitch the interface between ppm and wt-% units due to user request.\
+\
+Mogeva V. 1.4\
+Stop of Development of Mogeva\
+\
+
+\f0\b Mogeva  V. 1.3
+\f1\b0 \
+30-April-2009\
+-Fixed a minor issue that caused drawing the sum curves in the histogram view beyond the diagram borders.\
+\
+\
+
+\f0\b Mogeva  V. 1.2
+\f1\b0 \
+5-Feb-2009\
+-Fixed a major issue that prevented synchronisation between selections and data when the data in the tables were sorted. The selections were not adjusted and remained static which caused wrongly calculated results.\
+I had to change mayor parts of the data classes and as a consequence of this it is not possible to open data files of version 1.1 and earlyer in the new version 1.2 any more. As a workaround I suggest to import old data files as textfiles.\
+\
+\
+
+\f0\b Mogeva  V. 1.1
+\f1\b0 \
+30-Jan-2009\
+-Fixed a number of minor bugs to enhance stability\
+-Minor adjustments to the user interface\
+\
+\
+
+\f0\b Mogeva 0.1 dev. version\
+
+\f1\b0 21-Nov-2008\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\fs24 \cf0 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b \cf0 With special thanks to:
+\f1\b0 \
+Niels J\'9ans (Uni Bremen) for testing and suggestions. \
+Andreas Kronz (Uni G\'9attingen) and Callum J. Hetherington (Texas Tech University, Lubbock) for many valuealbe suggestions and reviewing the manuscript submitted to 
+\f2\i Computers and Geoscience
+\f1\i0 .\
+\
+
+\f0\b Web-Resources:
+\f1\b0\fs22 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://developer.apple.com/samplecode/Cocoa/index.html"}}{\fldrslt \cf0 Cocoa Sample \
+Code}}{\field{\*\fldinst{HYPERLINK "http://www.cocoabuilder.com"}}{\fldrslt Cocoabuilder - Mail archive}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://osx.hyperjeff.net/Apps/apps?p=21&sub=100&s=on&t=1"}}{\fldrslt \cf0 OS X Apps > Cocoa (w/ source)}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.cocoadev.com/"}}{\fldrslt \cf0 CocoaDev: CocoaDev}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.oreillynet.com/pub/ct/37"}}{\fldrslt \cf0 Programming With Cocoa}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://cocoablogs.com/"}}{\fldrslt \cf0 Cocoa Blogs}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "feed://www.cocoacast.com/?q=rss.xml"}}{\fldrslt \cf0 CocoaCast - [Starting Point for Cocoa Developers]}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.zathras.de/angelweb/sourcecode.htm"}}{\fldrslt \cf0 Source Code}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://homepage.mac.com/tonyswu/tonyswu/computer/cocoa_sample.html"}}{\fldrslt \cf0 Sample Code - Cocoa}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://homepage.mac.com/mmalc/CocoaExamples/controllers.html"}}{\fldrslt \cf0 Cocoa Bindings Examples and Hints}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.kevincallahan.org/cocoa.htm"}}{\fldrslt \cf0 Cocoa resources}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.osxentwicklerforum.de/"}}{\fldrslt \cf0 Mac Entwicklerforum | Portal}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://www.macresearch.org"}}{\fldrslt \cf0 Cocoa for Scientists | MacResearch}}\
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f0\b\fs24 \cf0 Code Used:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\f1\b0 \cf0 -Example code for  zooming of NSView subclassses from the book "Objective-C und Cocoa" of Rodewig & Negm-Awad\
+-Parts of the bindings example code "GraphicsBindings" from http://homepage.mac.com/mmalc/CocoaExamples/controllers.html\
+GraphicsBindings from http://homepage.mac.com/mmalc/CocoaExamples/controllers.html. Thanks for these excellent examples!\
+-The York-Fit routines were used by porting {\field{\*\fldinst{HYPERLINK "http://astro.u-strasbg.fr/%7efmurtagh/mda-sw/leiv1.f"}}{\fldrslt public available Fortran code}} from F. Murtagh to C. (See {\field{\*\fldinst{HYPERLINK "http://astro.u-strasbg.fr/%7efmurtagh/mda-sw/leiv1.f"}}{\fldrslt legal notice).}}\
+\
+\
+}

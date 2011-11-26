@@ -1,0 +1,13 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {changeBackgroundColor = id; changeUnitsInInterface = id; }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {colorWell = NSColorWell; unitsSelectorButton = NSMatrix; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

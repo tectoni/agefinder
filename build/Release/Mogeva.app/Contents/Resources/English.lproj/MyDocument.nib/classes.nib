@@ -1,0 +1,93 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {savePDF = id; zoomLevel = id; }; 
+            CLASS = DiagramView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                analysisController = NSArrayController; 
+                selectionController = NSArrayController; 
+                window = NSWindow; 
+                zoomMenu = NSMenu; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {CLASS = ERRFormatter; LANGUAGE = ObjC; SUPERCLASS = NSNumberFormatter; }, 
+        {
+            ACTIONS = {savePDF = id; zoomLevel = id; }; 
+            CLASS = IsochroneView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                analysisController = NSArrayController; 
+                selTable = NSTableView; 
+                window = NSWindow; 
+                zoomMenu = NSMenu; 
+            }; 
+            SUPERCLASS = NSView; 
+        }, 
+        {
+            ACTIONS = {
+                createSel = id; 
+                deleteSelectedSel = id; 
+                exportTextFile = id; 
+                importTextFile = id; 
+                remove = id; 
+                saveHisto2PDF = id; 
+                saveIso2PDF = id; 
+                updateDiagram = id; 
+            }; 
+            CLASS = MyDocument; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                analysisController = NSArrayController; 
+                dataTable = NSTableView; 
+                diagramView = DiagramView; 
+                isochroneView = IsochroneView; 
+                largeDateTable = NSTableView; 
+                mainWindow = NSWindow; 
+                ppmFormatter = PPMFormatter; 
+                preferenceController = PreferenceController; 
+                saveHisto2PDF = NSButton; 
+                saveIso2PDF = NSButton; 
+                selTable = NSTableView; 
+                selTable2 = NSTableView; 
+                selectionController = NSArrayController; 
+                textFieldHistoMaxX = NSTextField; 
+                textFieldHistoMaxY = NSTextField; 
+                textFieldHistoMinX = NSTextField; 
+                textFieldIsoMaxX = NSTextField; 
+                textFieldIsoMaxY = NSTextField; 
+                textFieldIsoMinX = NSTextField; 
+                textFieldIsoMinY = NSTextField; 
+                theTabView = NSTabView; 
+                updateDiagramButton = NSButton; 
+                updateIsochroneButton = NSButton; 
+                wtFormatter = WTFormatter; 
+            }; 
+            SUPERCLASS = NSDocument; 
+        }, 
+        {
+            ACTIONS = {calculate = id; }; 
+            CLASS = NSArrayController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObjectController; 
+        }, 
+        {CLASS = PPMFormatter; LANGUAGE = ObjC; SUPERCLASS = NSNumberFormatter; }, 
+        {
+            ACTIONS = {changeUnitsInInterface = id; }; 
+            CLASS = PreferenceController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {unitsSelectorButton = NSMatrix; }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = SelData; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = WTFormatter; LANGUAGE = ObjC; SUPERCLASS = NSNumberFormatter; }, 
+        {
+            CLASS = ZoomScrollView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {zoomMenu = NSMenu; }; 
+            SUPERCLASS = NSScrollView; 
+        }
+    ); 
+    IBVersion = 1; 
+}

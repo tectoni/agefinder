@@ -1,0 +1,17 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {showPreferencePanel = id; }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {exportTextFile = id; importTextFile = id; showPreferencePanel = id; }; 
+            CLASS = FirstResponder; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
