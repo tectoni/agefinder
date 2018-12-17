@@ -28,7 +28,7 @@
 	[zoomButton setTarget:self];
 	[self addSubview:zoomButton];
 	[self setAutohidesScrollers:NO];
-	NSLog(@"zoom %@", [self documentView]);
+//	NSLog(@"zoom %@", [self documentView]);
 	//Scrollbars setzen, so da§ die Grafik bei 100% zentriert erscheint
 	NSView *documentView = [self documentView];
 	[documentView scrollPoint:NSMakePoint(-25.0,-50.0)];

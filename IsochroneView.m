@@ -792,7 +792,7 @@ for (index = 0; index < (numberOfYTicks+1); index++) {
 -(IBAction) savePDF:(id)sender
 {
 	NSSavePanel * panel = [NSSavePanel savePanel];
-	NSLog(@"savePDF",self);
+//	NSLog(@"savePDF",self);
 	[panel setRequiredFileType: @"pdf"];
 	[panel beginSheetForDirectory: nil
 							 file: nil
@@ -814,7 +814,7 @@ for (index = 0; index < (numberOfYTicks+1); index++) {
 {
 	if(code == NSOKButton)
 	{
-		NSLog(@"didEnd called for %@", self);
+	//	NSLog(@"didEnd called for %@", self);
 
 		
 		NSRect bounds = [self bounds];

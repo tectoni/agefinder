@@ -1,18 +1,21 @@
-{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf320
+{\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf360
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;}
 {\colortbl;\red255\green255\blue255;}
+\viewkind0
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
 
 \f0\b\fs24 \cf0 AgeFinder\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
 \b0 \cf0 \
-This program needs Mac OS X 10.4 ("Tiger") or later.\
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\qc
+Version 1.42 i\
+Needs an Mac with Intel processor and Mac OS X version 10.5 or later.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+\cf0 Versions for PPC and older Mac OS can be obtained directly at {\field{\*\fldinst{HYPERLINK "http://rhodesit.min.uni-kiel.de/~pa/pub/software/"}}{\fldrslt http://rhodesit.min.uni-kiel.de/~pa/pub/software/}}\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
 \b \cf0 \
-\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
-\cf0 Author:
+Author:
 \b0 \
 Peter Appel\
 Christian-Albrechts-Universit\'e4t zu Kiel (Germany) \
@@ -45,12 +48,22 @@ You also can enter the data in ppm units, using elemental concentration. Choose 
 \b Potential Problems during Calculations\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
-\b0 \cf0 In some cases it may occur that you receive wired results from the calculations, mostly related to the CHIME calculations. In case that one or more data in the selection cells do not show numerical values but "NaN" check this:\
+\b0 \cf0 In some cases it may occur that you odd results from the isochron calculations. In case that one or more data in the selection cells show numerical values of 9999.9 check this:\
 - Is it possible that your input data define an isochron with a negative slope? In that case the York-Fit regression will not work and no age can be calculated.\
 -Do you use sufficient points for the calculation of the isochron? It will not work for only one point.\
--Does your data displays a minimum variation in ThO2*? If all data have the same ThO2*-value, the slope of the isochron cannot be defined. The higher the variation, the better the regression will be.\
--Be careful when saving such data to a file. "NaN" may not represent valid data and files containing such values possibly cannot be loaded.\
+-Does your data at least a small variation in ThO2*? If all data have the same ThO2*-value, the slope of the isochron cannot be defined. The higher the variation, the better the regression will be.\
 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\b \cf0 Reference
+\b0 \
+For more information about this software see:\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural\pardirnatural
+
+\i \cf0 Appel, P (2010) \'93AgeFinder\'94: A Mac OS X computer program to evaluate electron microprobe data of monazite for chemical age dating. Computers & Geosciences 36(4): 559-563
+\i0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+\cf0 The information in this article refer to version 1.1\
 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
@@ -64,10 +77,41 @@ You also can enter the data in ppm units, using elemental concentration. Choose 
 -You may not use the Software in support of any commercial entity or activity without the express written agreement of the author of the software.\
 \
 \
+\
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
 \b \cf0 Version History:\
 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\fs20 \cf0 AgeFinder 1.41 + 1.42\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\b0 \cf0 13-12-2011\
+-New application icon. (1.42: Doc Icon added)
+\b\fs24 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\fs20 \cf0 AgeFinder 1.4\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\b0 \cf0 01-12-2011\
+-Fixed an issue that prevented data files from loading.\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\b\fs24 \cf0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\fs20 \cf0 AgeFinder 1.3\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\b0 \cf0 26-11-2011\
+-Compiled for Leopard and later. Needs Mac with Intel processor.\
+-Added binding between gauss curves and table\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
+
+\b\fs24 \cf0 \
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\ql\qnatural
 
 \fs20 \cf0 AgeFinder 1.2\

@@ -12,7 +12,7 @@
 				<string>agfi</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string>sol.icns</string>
+			<string>zirconGlowDocument</string>
 			<key>CFBundleTypeName</key>
 			<string>DocumentType</string>
 			<key>CFBundleTypeOSTypes</key>
@@ -28,9 +28,9 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string>sol</string>
+	<string>zirconGlow</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.pappel.agefinder</string>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
@@ -40,7 +40,9 @@
 	<key>CFBundleSignature</key>
 	<string>agfi</string>
 	<key>CFBundleVersion</key>
-	<string>1.2</string>
+	<string>1.42</string>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.productivity</string>
 	<key>NSMainNibFile</key>
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>

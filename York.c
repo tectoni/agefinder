@@ -39,7 +39,7 @@ while ( diff > eps ) {
 		diff = fabs(newSlope - lastSlope);
 		lastSlope = newSlope;
 		printf("Inclination: %lf %lf %d\n", newSlope, diff,  iter);
-
+// Potential Bug: Fall into Infinite Loop
 		}
 	xin = ybar - newSlope * xbar;
 		
@@ -66,13 +66,27 @@ while ( diff > eps ) {
 	double a = 1.0/0.000049475 * log(1+newSlope*264.0/224.0);
 	float sigmaAge =  2*  (1.0/0.000049475 * log(1+( newSlope + sigma) *264.0/224.0) - a);   // here: 2-sigma
 printf("Inclination: %lf intercept %lf age %lf sigAge %lf sigma %lf sigmai %lf s %lf si %lf mswd %lf iter %d\n", newSlope, xin, a, sigmaAge, sigma, sigmai, s, si, mswd, iter);
-fitresult.inclination = newSlope;
-fitresult.intersect = xin;
-fitresult.mswd = mswd;
-fitresult.inclErr = sigma;
-fitresult.interErr = sigmai;
-fitresult.age = a;
-fitresult.ageErr = sigmaAge;
+    
+    if (isnan(newSlope)) {fitresult.inclination = 9999.9;}
+    else  fitresult.inclination = newSlope;
+
+    if (isnan(xin)) { fitresult.intersect = 9999.9;}
+    else fitresult.intersect = xin;
+    
+    if (isnan(mswd)) { fitresult.mswd = 9999.9;}
+    else fitresult.mswd = mswd;
+    
+    if (isnan(sigma)) {fitresult.inclErr = 9999.9;}
+    else fitresult.inclErr = sigma;
+        
+    if (isnan(sigmai)) {fitresult.interErr = 9999.9;}
+    else fitresult.interErr = sigmai;
+   
+    if (isnan(mswd)) { fitresult.age = 9999.9;}
+    else fitresult.age = a;
+
+    if (isnan(sigmaAge)) {fitresult.ageErr = 9999.9;}
+    else fitresult.ageErr = sigmaAge;
 
 
 return fitresult;

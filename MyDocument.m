@@ -72,8 +72,8 @@ if ( [[NSUserDefaults standardUserDefaults] boolForKey:MOGUnitsKey] )
 			[textFieldIsoMaxY setFloatValue: 1100.];
 			}
 			else {
-				[textFieldIsoMaxX setFloatValue: 20.];
-				[textFieldIsoMaxY setFloatValue: 10.];
+				[textFieldIsoMaxX setFloatValue: 16.];
+				[textFieldIsoMaxY setFloatValue: 4.];
 				}
 
 
@@ -87,7 +87,7 @@ if ( [[NSUserDefaults standardUserDefaults] boolForKey:MOGUnitsKey] )
 
 -(void)updateTableHeaders:(BOOL)isppm
 {
-NSLog(@"Reveiving from  notification center");
+//NSLog(@"Reveiving from  notification center");
 NSTableHeaderCell *headerACell = [[NSTableHeaderCell alloc] init];
 NSTableHeaderCell *headerBCell = [[NSTableHeaderCell alloc] init];
 NSTableHeaderCell *headerCCell = [[NSTableHeaderCell alloc] init];
@@ -319,7 +319,7 @@ daten
 
 - (void)setDaten:(NSMutableArray *)array	
 {
-	NSLog(@"setDaten");
+//	NSLog(@"setDaten");
 	if (array == daten) 
 		return;
 	NSEnumerator *e = [daten objectEnumerator];
@@ -338,7 +338,7 @@ daten
 		}
 			NSLog(@"setDaten update");
 
-		[self updateSel];
+	//	[self updateSel];
 }
 
 -(void)setLocs
@@ -477,7 +477,7 @@ int index = 0;
 	float ll, chi2, s,sum, mean, stdabw, p;
 	float widthOfIntervalls;	// sigma												// 20 Ma
 	int numberOfIntervalls = 6;							// 
-	NSLog(@"Chi2\n");
+//	NSLog(@"Chi2\n");
 
 float noP = [aSel noOfPoints];
 // Berechnung des  Mittelwertes
@@ -511,7 +511,7 @@ float noP = [aSel noOfPoints];
 	while (dat = [enumerator nextObject]) {
 			c = (int) ([[dat valueForKey:@"age"] floatValue]-ll) / widthOfIntervalls;
 			classCounter[c]++; 
-			NSLog(@"classCounter[%i] = %i", c, classCounter[c]);
+//			NSLog(@"classCounter[%i] = %i", c, classCounter[c]);
 			}			
 
 
@@ -525,7 +525,7 @@ for (index = 0; index < numberOfIntervalls; index++) {
 		p = 0.341;
 	chi2 = chi2 + pow(classCounter[index] - noP * p, 2) / noP / p;
 	}
-	NSLog(@"Chi2 stdabw %f  mean %f   chi2 %f", stdabw, mean, chi2);
+//	NSLog(@"Chi2 stdabw %f  mean %f   chi2 %f", stdabw, mean, chi2);
 
 return chi2;
 }	
@@ -668,9 +668,6 @@ return chi2;
 	[isochroneView setYMax:[textFieldIsoMaxY floatValue]];
 
 	[diagramView setSelArray:selArray];
-	[diagramView setSigma:sigmaArray];
-	[diagramView setAge:ageArray];
-    [diagramView setAllDataArray: daten];
     [diagramView setSelectedData: [analysisController selectedObjects]];
 
 	[isochroneView setX: xArray];
@@ -695,7 +692,7 @@ return chi2;
 
 - (void)windowControllerDidLoadNib:(NSWindowController *) aController
 {
-	NSLog(@"windowControllerDidLoadNib");
+//	NSLog(@"windowControllerDidLoadNib");
 
     [super windowControllerDidLoadNib:aController];
     // Add any code here that needs to be executed once the windowController has loaded the document's window.
@@ -731,8 +728,8 @@ return chi2;
 			[textFieldIsoMaxY setFloatValue: 1100.];
 			}
 			else {
-				[textFieldIsoMaxX setFloatValue: 20.];
-				[textFieldIsoMaxY setFloatValue: 10.];
+				[textFieldIsoMaxX setFloatValue: 16.];
+				[textFieldIsoMaxY setFloatValue: 4.];
 				}
 			}
 	
@@ -768,11 +765,11 @@ TABLE METHODS
 {
 	NSLog(@"tableViewSelectionDidChange");
  if ([aNotification object] == selTable) {
-//	NSLog(@"true");
+	NSLog(@"true");
 	[self updateSel];
 	}
 	else {
-//	NSLog(@"else");
+	NSLog(@"else");
 	[selTable deselectAll:nil];
 	}
 }
@@ -787,7 +784,7 @@ aktivierung der Auswahl der selTable.
 -(void)updateSel
 {
 
-	unsigned selectedRow = [selTable selectedRow];
+	signed selectedRow = [selTable selectedRow];
 	NSLog(@"vgfr %i",  selectedRow );
 
 	if (selectedRow == -1)
@@ -796,12 +793,13 @@ aktivierung der Auswahl der selTable.
 			NSLog(@"numberofselerows %i",  [selTable numberOfSelectedRows] );
 
 			[selTable deselectAll:nil];
+           // [dataTable deselectAll:nil];
 		}
 	else		
 	{
 		[analysisController setSelectedObjects:[[selArray objectAtIndex:selectedRow] sel] ];
 		[selTable selectRow:selectedRow byExtendingSelection:NO];
-		NSLog(@"selextion %i,  %i %@ %@", [[[selArray objectAtIndex:selectedRow] sel] count], selectedRow, [[selArray objectAtIndex:selectedRow] sel], [selArray description] );
+	//	NSLog(@"selextion %i,  %i %@ %@", [[[selArray objectAtIndex:selectedRow] sel] count], selectedRow, [[selArray objectAtIndex:selectedRow] sel], [selArray description] );
 	}
 }	
 
@@ -842,7 +840,7 @@ if (aTableView == selTable) {
 - (IBAction)importTextFile:(id)sender
 {
     NSOpenPanel *panel = [NSOpenPanel openPanel];
-	NSLog(@"importTextFile");
+//	NSLog(@"importTextFile");
     [panel beginSheetForDirectory:nil 
 							 file:nil 
 							types:nil 
@@ -858,7 +856,7 @@ if (aTableView == selTable) {
 - (void)openPanelDidEnd:(NSOpenPanel *)openPanel returnCode:(int)returnCode contextInfo:(void  *)contextInfo
 {
     NSString *textFilePath;
-	NSLog(@"openPanelDidEnd");
+//	NSLog(@"openPanelDidEnd");
     if (returnCode == NSOKButton) {
         textFilePath = [openPanel filename];
         [self createRecordsFromTextFile:textFilePath];
@@ -965,7 +963,7 @@ if (aTableView == selTable) {
 - (IBAction)exportTextFile:(id)sender
 {
     NSSavePanel *panel = [NSSavePanel savePanel];
-	NSLog(@"exportTextFile");	
+//	NSLog(@"exportTextFile");	
 	[panel setRequiredFileType:@"txt"];
     [panel beginSheetForDirectory:nil 
 							 file:nil 
@@ -980,7 +978,7 @@ if (aTableView == selTable) {
 - (void)savePanelDidEnd:(NSSavePanel *)savePanel returnCode:(int)returnCode contextInfo:(void  *)contextInfo
 {
     NSString *textFilePath;
-	NSLog(@"savePanelDidEnd");
+//	NSLog(@"savePanelDidEnd");
     if (returnCode == NSOKButton) {
         textFilePath = [savePanel filename];
 		[self writeRecordsToTextFile:textFilePath];
@@ -1085,12 +1083,12 @@ if (aTableView == selTable) {
 - (BOOL)loadDataRepresentation:(NSData *)data ofType:(NSString *)aType
 {
     // Insert code here to read your document from the given data.  You can also choose to override -loadFileWrapperRepresentation:ofType: or -readFromFile:ofType: instead.
-    NSLog(@"About to read data of type %@", aType);
+//    NSLog(@"About to read data of type %@", aType);
 	NSKeyedUnarchiver *unarchiver = [[NSKeyedUnarchiver alloc] initForReadingWithData:data];
 //    dict = [[unarchiver decodeObjectForKey:@"mainDict"] retain];
 	BOOL isPPMunit;
-	daten = [unarchiver decodeObjectForKey:@"analysen"];
-	selArray = [unarchiver decodeObjectForKey:@"auswahl"];
+	NSMutableArray *dArray = [[NSMutableArray alloc] initWithArray:[unarchiver decodeObjectForKey:@"analysen"]];
+    NSMutableArray *sArray =[[NSMutableArray alloc] initWithArray:[unarchiver decodeObjectForKey:@"auswahl"]];
 	hmaxx = [unarchiver decodeFloatForKey:@"histomaxx"];
 	hminx = [unarchiver decodeFloatForKey:@"histominx"];
 	hmaxy = [unarchiver decodeFloatForKey:@"histomaxy"];
@@ -1104,13 +1102,14 @@ if (aTableView == selTable) {
 	[unarchiver finishDecoding];
     [unarchiver release];
 
-	if (daten == nil) { // dict
-		return NO;
-	} else {
-	[self setSelArray:selArray];
+	if (dArray == nil) 
+    {return NO;} 
+    else {
+	[self setSelArray:sArray];
+        [sArray release];
 //    [self setDaten:[dict objectForKey:@"daten"]];
-	[self setDaten:daten];
-
+	[self setDaten:dArray];
+        [dArray release];
 	// For applications targeted for Tiger or later systems, you should use the new Tiger API 
 	// readFromData:ofType:error:.  In this case you can also choose to override 
 	// -readFromURL:ofType:error: or -readFromFileWrapper:ofType:error: instead.
@@ -1174,7 +1173,7 @@ default:	break; // this should not occur
 // aus irgendeinem unbekanntem Grund wird dealloc nicht aufgerufen
 // Die Abmeldung am NotificationCenter erfolgt in -windowWillClose:
 {
-NSLog(@"Destroying %@", self);
+// NSLog(@"Destroying %@", self);
 
 	[self setDaten:nil];
 	[self setSelArray:nil];
@@ -1182,7 +1181,7 @@ NSLog(@"Destroying %@", self);
 	NSNotificationCenter *nc;
 	nc = [NSNotificationCenter defaultCenter];
 	[nc removeObserver:self];
-	NSLog(@"Unregistered with notification center: %@", [self fileName]);
+//	NSLog(@"Unregistered with notification center: %@", [self fileName]);
 	[super dealloc];
 }
 

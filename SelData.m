@@ -63,13 +63,14 @@
 
 - (void)setMswd:(float)x
 {
-	mswd = x;
+ mswd =x;
 }
 
 - (float)isoage { return isoage; }
 
 - (void)setIsoage:(float)x 
 {
+
 	isoage = x;
 }
 
@@ -79,7 +80,8 @@
 
 - (void)setIsoageerr:(float)x 
 {
-	isoageerr = x;
+
+    isoageerr = x;
 }
 
 
@@ -88,7 +90,8 @@
 
 - (void)setIntersect:(float)x 
 {
-	intersect = x;
+
+    intersect = x;
 }
 
 
@@ -96,7 +99,8 @@
 
 - (void)setIntererr:(float)x 
 {
-	intererr = x;
+
+     intererr = x;
 }
 
 
@@ -104,7 +108,8 @@
 
 - (void)setInclination:(float)x 
 {
-	inclination = x;
+
+    inclination = x;
 }
 
 
@@ -113,14 +118,16 @@
 
 - (void)setInclerr:(float)x 
 {
-	inclerr = x;
+
+    inclerr = x;
 }
 
 - (float)bestimate { return bestimate; }
 
 - (void)setBestimate:(float)x 
 {
-	bestimate = x;
+
+    bestimate = x;
 }
 
 
@@ -128,7 +135,8 @@
 
 - (void)setErrbestimate:(float)x 
 {
-	errbestimate = x;
+ 
+    errbestimate = x;
 }
 
 
@@ -136,7 +144,8 @@
 
 - (void)setChi2:(float)x 
 {
-	chi2 = x;
+
+     chi2 = x;
 }
 
 

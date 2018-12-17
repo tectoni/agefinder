@@ -75,18 +75,7 @@ nicht bei Objekten aus dem Nibfile  28/Jan/09
 	yMax = x;
 }
 
--(void)setAllDataArray:(NSMutableArray*)array
-{
-	if (array == allDataArray)
-		return;
-	
-	[allDataArray release];
-	[array retain];
-	allDataArray = array;
-}
 
-
--(NSArray *)allDataArray {return allDataArray;}
 
 -(void)setSelectedData:(NSArray *)theData
 {
@@ -99,32 +88,6 @@ nicht bei Objekten aus dem Nibfile  28/Jan/09
 
 
 -(NSArray *)selectedData {return selectedData;}
-
--(void)setAge:(NSMutableArray*)array 
-{
-	if (array == age)
-		return;
-	
-	[age release];
-	[array retain];
-	age = array;
-}
-
--(NSMutableArray *)age {return age;}
-
--(void)setSigma:(NSMutableArray*)array
-{
-	if (array == sigma)
-		return;
-	
-	[sigma release];
-	[array retain];
-	sigma = array;
-}
-		
-	
--(NSMutableArray *)sigma {return sigma;}
-
 
 
 - (void)setSelArray:(NSMutableArray *)aSelArray
@@ -485,7 +448,7 @@ float age_, err, gy, stepSize, lowerX, x;
 //		NSLog(@"age count    %i", [age count]);
     
     NSIndexSet *currentSelectionIndexes = [self selectionIndexes];
- 	NSEnumerator *dataEnum = [allDataArray objectEnumerator];
+ 	NSEnumerator *dataEnum = [analysisArray objectEnumerator];
     index = 0;
   
     while (dat = [dataEnum nextObject]) 
@@ -521,7 +484,7 @@ float age_, err, gy, stepSize, lowerX, x;
        
         
         //		NSLog(@"gy x %f  %f   %i", gy, x, i);
-            NSLog(@"currentselinx %@", [self selectionIndexes]);
+        //    NSLog(@"currentselinx %@", [self selectionIndexes]);
     //  if ( [selectedData containsObject:dat])
         if (currentSelectionIndexes != nil)
         {  
@@ -693,7 +656,7 @@ if ([selArray count] > 0) {
 -(IBAction) savePDF:(id)sender
 {
 	NSSavePanel * panel = [NSSavePanel savePanel];
-	NSLog(@"savePDF",self);
+//	NSLog(@"savePDF",self);
 	[panel setRequiredFileType: @"pdf"];
 	[panel beginSheetForDirectory: nil
 							 file: nil
@@ -713,7 +676,7 @@ if ([selArray count] > 0) {
 {
 	if(code == NSOKButton)
 	{
-		NSLog(@"didEnd called for %@", self);
+	//	NSLog(@"didEnd called for %@", self);
 
 		
 		NSRect bounds = [self bounds];

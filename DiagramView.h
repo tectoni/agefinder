@@ -12,15 +12,12 @@
 	IBOutlet NSArrayController *analysisController;
 	IBOutlet NSArrayController *selectionController;
 	NSMutableDictionary *attributes;
-	NSMutableArray *age;
-	NSMutableArray *sigma;
 	NSArray *intervallCounts;
 	float xMax, yMax, xMin;
 	
 	NSMutableArray *selArray;
     
 	NSMutableDictionary *bindingInfo;
-	NSMutableArray *allDataArray;
     NSArray *selectedData;
 	NSArray *oldAnalysis;
 
@@ -47,12 +44,6 @@
 -(void)setXMax:(float)x;
 -(void)setYMax:(float)x;
 
--(void)setAge:(NSMutableArray*)array;
--(NSMutableArray *)age;
-
--(void)setSigma:(NSMutableArray*)array;
--(NSMutableArray *)sigma;
-
 -(void)setSelArray:(NSMutableArray*)array;
 
 - (NSDictionary *)infoForBinding:(NSString *)bindingName;
@@ -62,8 +53,6 @@
 - (NSString *)selectionIndexesKeyPath; 
 - (NSArray *)analysis;
 - (NSIndexSet *)selectionIndexes;
-
--(NSArray *)allDataArray;
 
 
 

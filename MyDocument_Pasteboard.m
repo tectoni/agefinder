@@ -42,8 +42,8 @@
 if ( [type isEqualToString:NSStringPboardType] ) 
 	{
 	result = [pboard setString:(NSString *)csvString forType:type];
-	NSLog(@"pboard %@  %@", csvString, type);
-	NSLog(@"pboard %@",[pboard stringForType:NSStringPboardType]);
+//	NSLog(@"pboard %@  %@", csvString, type);
+//	NSLog(@"pboard %@",[pboard stringForType:NSStringPboardType]);
 	}
 return result;
  
@@ -81,7 +81,7 @@ if (![self canTakeValueFromPasteboard:pb])
 	type =[pb availableTypeFromArray:[NSArray arrayWithObject: NSStringPboardType]];
 	if (type) {
 		value = [pb stringForType:NSStringPboardType];
-		NSLog(@"pasteboard %@", value);
+		// NSLog(@"pasteboard %@", value);
 		[self createRecordsFromPasteboard:value];
 		return YES;
 		}
