@@ -488,7 +488,7 @@ float age_, err, gy, stepSize, lowerX, x;
     //  if ( [selectedData containsObject:dat])
         if (currentSelectionIndexes != nil)
         {  
-            unsigned int indx = [currentSelectionIndexes firstIndex];
+            NSUInteger indx = [currentSelectionIndexes firstIndex];
             while (indx != NSNotFound)
             {
                 analysis = [analysisArray objectAtIndex:indx];

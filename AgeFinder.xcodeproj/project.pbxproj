@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -32,20 +32,20 @@
 		E294D8C60E81074A0096C1E2 /* SelData.m in Sources */ = {isa = PBXBuildFile; fileRef = E294D8C30E8107490096C1E2 /* SelData.m */; };
 		E294D8C70E81074A0096C1E2 /* ZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = E294D8C50E81074A0096C1E2 /* ZoomScrollView.m */; };
 		E297A0C20EB7BF8A00A2ADD4 /* York.c in Sources */ = {isa = PBXBuildFile; fileRef = E297A0C10EB7BF8A00A2ADD4 /* York.c */; };
-		E29D5B1F127708A10047FD89 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E29D5B1E127708A10047FD89 /* Sparkle.framework */; };
-		E29D5B471277176E0047FD89 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E29D5B1E127708A10047FD89 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		E29D5B4E1277197F0047FD89 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = E29D5B4D1277197F0047FD89 /* dsa_pub.pem */; };
+		E2BE641225A75FB90095B52A /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2BE641125A75FB90095B52A /* Sparkle.framework */; };
+		E2BE641825A765030095B52A /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = E2BE641125A75FB90095B52A /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E2E849FF149A72660011AB5D /* zirconGlowDocument.icns in Resources */ = {isa = PBXBuildFile; fileRef = E2E849FE149A72660011AB5D /* zirconGlowDocument.icns */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		E29D5B35127708B90047FD89 /* CopyFiles */ = {
+		E2BE641725A764F80095B52A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				E29D5B471277176E0047FD89 /* Sparkle.framework in CopyFiles */,
+				E2BE641825A765030095B52A /* Sparkle.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,9 @@
 		E294D8C50E81074A0096C1E2 /* ZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = ZoomScrollView.m; sourceTree = "<group>"; };
 		E297A0C00EB7BF8A00A2ADD4 /* York.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = York.h; sourceTree = "<group>"; };
 		E297A0C10EB7BF8A00A2ADD4 /* York.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = York.c; sourceTree = "<group>"; };
-		E29D5B1E127708A10047FD89 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		E29D5B4D1277197F0047FD89 /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		E2BE641125A75FB90095B52A /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
+		E2BE641325A7601B0095B52A /* AgeFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AgeFinder.entitlements; sourceTree = "<group>"; };
 		E2E849FE149A72660011AB5D /* zirconGlowDocument.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = zirconGlowDocument.icns; path = "Icon Templates/zirconGlowDocument.icns"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,7 +112,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
-				E29D5B1F127708A10047FD89 /* Sparkle.framework in Frameworks */,
+				E2BE641225A75FB90095B52A /* Sparkle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,7 +122,7 @@
 		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E29D5B1E127708A10047FD89 /* Sparkle.framework */,
+				E2BE641125A75FB90095B52A /* Sparkle.framework */,
 				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -140,6 +141,7 @@
 		2A37F4AAFDCFA73011CA2CEA /* DataLister */ = {
 			isa = PBXGroup;
 			children = (
+				E2BE641325A7601B0095B52A /* AgeFinder.entitlements */,
 				E2EBBEEE0EC4AA6700ABDA1F /* C Stuff */,
 				E2EBBEEB0EC4AA1200ABDA1F /* Controllers */,
 				E2EBBEE80EC4AA0400ABDA1F /* Views */,
@@ -266,7 +268,8 @@
 				8D15AC2B0486D014006FF6A4 /* Resources */,
 				8D15AC300486D014006FF6A4 /* Sources */,
 				8D15AC330486D014006FF6A4 /* Frameworks */,
-				E29D5B35127708B90047FD89 /* CopyFiles */,
+				E2BE641725A764F80095B52A /* CopyFiles */,
+				E2BE641425A760400095B52A /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -287,7 +290,7 @@
 				LastUpgradeCheck = 0920;
 			};
 			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "AgeFinder" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
 			knownRegions = (
@@ -324,6 +327,26 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E2BE641425A760400095B52A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "codesign --verbose --force --timestamp --deep -o runtime --sign \"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Contents/Frameworks/Sparkle.framework/Versions/A/Resources/AutoUpdate.app\"\ncodesign --verbose --force --timestamp -o runtime --sign \"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Contents/NacOS/AgeFinder\"\ncodesign --verbose --force --timestamp -o runtime --sign \"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\" \"${BUILT_PRODUCTS_DIR}/${WRAPPER_NAME}/Contents/Frameworks/Sparkle.framework/Versions/A/Sparkle\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D15AC300486D014006FF6A4 /* Sources */ = {
@@ -399,10 +422,16 @@
 		C05733C808A9546B00998B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AgeFinder.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2003;
+				DEVELOPMENT_TEAM = 78ZGWNRH2G;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(PROJECT_DIR)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -411,7 +440,12 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 2.0;
 				OBJROOT = "$(SYMROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pappel.agefinder;
 				PRODUCT_NAME = AgeFinder;
@@ -426,9 +460,15 @@
 		C05733C908A9546B00998B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AgeFinder.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
+				CURRENT_PROJECT_VERSION = 2003;
+				DEVELOPMENT_TEAM = 78ZGWNRH2G;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(PROJECT_DIR)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
@@ -436,7 +476,12 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 2.0;
 				OBJROOT = "$(SYMROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pappel.agefinder;
 				PRODUCT_NAME = AgeFinder;
@@ -452,10 +497,10 @@
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
@@ -467,7 +512,8 @@
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = Release;
@@ -476,10 +522,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				GCC_VERSION = 4.0;
+				GCC_VERSION = "";
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.4u.sdk";
 			};
 			name = "Universal Binary";
@@ -487,10 +534,16 @@
 		E2AE007B119048D000B617F0 /* Universal Binary */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = AgeFinder.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 2003;
+				DEVELOPMENT_TEAM = 78ZGWNRH2G;
+				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(PROJECT_DIR)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)\"";
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -499,7 +552,12 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(LD_RUNPATH_SEARCH_PATHS_$(IS_MACCATALYST))",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MARKETING_VERSION = 2.0;
 				OBJROOT = "$(SYMROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pappel.agefinder;
 				PRODUCT_NAME = AgeFinder;

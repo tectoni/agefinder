@@ -40,7 +40,7 @@
 	<key>CFBundleSignature</key>
 	<string>agfi</string>
 	<key>CFBundleVersion</key>
-	<string>1.42</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSApplicationCategoryType</key>
 	<string>public.app-category.productivity</string>
 	<key>NSMainNibFile</key>
@@ -48,8 +48,8 @@
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
 	<key>SUFeedURL</key>
-	<string>http://rhodesit.min.uni-kiel.de/~pa/appcast_afi.xml</string>
+	<string>https://www.rocks.uni-kiel.de/pa/sw/appcast_afi.xml</string>
 	<key>SUPublicDSAKeyFile</key>
-	<string>dsa_pub.pem</string>
+	<string>dwhqKzi1vxfCnRwXLY4jmdeQhWRHzIUYZOi+5mYKQ0s=</string>
 </dict>
 </plist>
